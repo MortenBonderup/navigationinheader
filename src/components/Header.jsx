@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
-
 export default function Header() {
 
     return (
         <header>
-            <nav>
+            <nav className="navigation">
                 <p>
-                    Home:<Link to="">Home</Link>
+                    <Link className="linktext" to="">Home</Link>
                 </p>
                 <p>
-                    Link 1:<Link to="first">First</Link>
+                    <Link className="linktext" to="first">First page</Link>
                 </p>
                 <p>
-                    Link 2:<Link to="second">Second</Link>
+                    <Link className="linktext" to="second">Second page</Link>
                 </p>
             </nav>
         </header>

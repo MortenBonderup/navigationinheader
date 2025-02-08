@@ -1,0 +1,19 @@
+.text {
+    color: red;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+    color: white;
+    background-color: darkslategray;
+    padding-left: 10px;
+}
+
+.linktext {
+    color: white;
+}
+
+.mainpart {
+    height: 80vh;
+}

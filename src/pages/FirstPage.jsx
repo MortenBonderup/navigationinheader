@@ -1,4 +1,4 @@
-import fish from "./assets/fightingfish.jpg";
+import fish from "../assets/fightingfish.jpg";
 function FirstPage() {
     return (
         <>

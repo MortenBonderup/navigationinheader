@@ -6,6 +6,9 @@ export default function Header() {
         <header>
             <nav>
                 <p>
+                    Home:<Link to="">Home</Link>
+                </p>
+                <p>
                     Link 1:<Link to="first">First</Link>
                 </p>
                 <p>
